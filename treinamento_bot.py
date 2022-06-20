@@ -23,7 +23,7 @@ def carregar_conversas():
     conversas = []
 
     for arquivo_configuracao in CONFIGURAÇÕES_CONVERSAS:
-        with open(arquivo_configuracao, 'r') as arquivo:
+        with open(arquivo_configuracao, 'r', encoding='utf-8') as arquivo:
             conversas_configuradas = json.load(arquivo)
             conversas.append(conversas_configuradas["conversas"])   # Adicionando as conversas configuradas
             arquivo.close()
