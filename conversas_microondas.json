@@ -1,0 +1,45 @@
+{
+    "conversas": [
+        {
+            "mensagens": [
+                "meu microondas parou de esquntar",
+                "meu microondas parou funcionar",
+                "meu microondas não funciona",
+                "meu microondas deu defeito"
+            ],
+            "resposta": "Qual a marca e modelo do microondas que está com problema?"
+        },
+        {
+            "mensagens": [
+                "parou de esquentar",
+                "só acende a luz mas não esquenta",
+                "não esquenta o alimento",
+                "não esquenta a comida",
+                "gira só o meio mas não esquenta",
+                "gira só o prato mas não esquenta",
+                "a comida sai fria",
+                "o alimento sai frio"
+            ],
+            "resposta": "Quase certeza que pode ser defeito no magnetron mas tem que testar para ter certeza poderia me informar o endereço?"
+        },
+        {
+            "mensagens": [
+                "painel não responde o comando",
+                "não está funcionando o painel",
+                "não aperta o painel",
+                "o digital não funciona"
+            ],
+            "resposta": "Quase certeza que pode ser defeito na membrana mas tem que testar para ter certeza poderia me informar o endereço?"
+        },
+        {
+            "mensagens": [
+                "painel não acende",
+                "visor apagado",
+                "parece que queimou a placa",
+                "o visor não acende",
+                "parou de tudo"
+            ],
+            "resposta": "Quase certeza que pode ser defeito na placa mas tem que testar para ter certeza poderia me informar o endereço?"
+        }
+    ]
+}

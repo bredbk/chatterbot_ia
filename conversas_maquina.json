@@ -1,0 +1,45 @@
+{
+    "conversas": [
+        {
+            "mensagens": [
+                "minha maquina parou de funcionar",
+                "minha máquina de lavar não funciona",
+                "minha máquina de lavar deu defeito",
+                "minha maquina de lavar não está funcionando",
+                "minha maquina parou"
+            ],
+            "resposta": "Qual a marca e modelo da mãquina de lavar que está com problema?"
+        },
+        {
+            "mensagens": [
+                "parou de centrifugar",
+                "só bate e não centrifuga",
+                "não está centrifugando",
+                "gira só o meio mas não gira o cesto"
+            ],
+            "resposta": "Quase certeza que pode ser defeito no atuador mas tem que testar para ter certeza poderia me informar o endereço?"
+        },
+        {
+            "mensagens": [
+                "parou de centrifugar",
+                "não está centrifugando",
+                "não joga água fora",
+                "a roupa sai molhada"
+            ],
+            "resposta": "Quase certeza que pode ser defeito na bomba de drenagem mas tem que testar para ter certeza poderia me informar o endereço?"
+        },
+        {
+            "mensagens": [
+                "não entra água",
+                "não entra água dentro",
+                "não entra água na máquina",
+                "não está centrifugando",
+                "painel fica piscando",
+                "painel fica piscando tres vezes e para",
+                "painel fica piscando tres vezes e não faz mais nada",
+                "não está entrando água"
+            ],
+            "resposta": "Quase certeza que pode ser defeito na válvula de entrada mas tem que testar para ter certeza poderia me informar o endereço?"
+        }
+    ]
+}

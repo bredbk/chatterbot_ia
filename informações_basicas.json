@@ -1,0 +1,55 @@
+{
+    "conversas": [
+        {
+            "mensagens": [
+                "você atende em qual horario?",
+                "a que horas você atende?",
+                "em que horário você atende?",
+                "tem horário disponivel?"
+            ],
+            "resposta": "Atendo das 10h da manhã ás 18h da tarde, podemos marcar um horário!"
+        },
+        {
+            "mensagens": [
+                "você é da autorizada?",
+                "você atende na garantia?",
+                "você "
+            ],
+            "resposta": "Não somos autorizada, somos especializada, temos os melhores cursos e mais de 10 anos de experiência."
+        },
+        {
+            "mensagens": [
+                "quanto tempo é a garantia do serviço?",
+                "quanto tempo tem a garantia?",
+                "quanto tempo tem a garantia do serviço?",
+                "tem garantia o serviço?",
+                "seu serviço tem garantia?"
+            ],
+            "resposta": "A garantia do serviço realizado é de 90 dias(3 meses) a contar da data do serviço realizado."
+        },
+        {
+            "mensagens": [
+                "onde fica localizada a sua oficina?",
+                "você atende a domicilio?",
+                "preciso levar a geladeira?"
+            ],
+            "resposta": "Atendemos a domicilio, caso haja extrema importância trazemos para a oficina."
+        },
+        {
+            "mensagens": [
+                "Consul",
+                "Brastemp",
+                "Electrolux",
+                "Continental",
+                "Suggar",
+                "Tramontina",
+                "Mabe",
+                "GE",
+                "Metalfrio",
+                "Esmaltec",
+                "Bosh"
+            ],
+            "resposta": "Descreva em poucas palavras o defeito que está acontecendo com a seu aparelho..."
+        }
+    ]
+}

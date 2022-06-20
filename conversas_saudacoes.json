@@ -1,0 +1,41 @@
+{
+    "conversas": [
+        {
+            "mensagens": [
+                "oi",
+                "olá",
+                "tudo bem?",
+                "tudo bom"
+            ],
+            "resposta": "Saudações, sou o robô assistente do técnico de refrigeração Brendon, poderia me informar a marca do aparelho que deseja assistência? Poderia me informar a marca, o tipo e o modelo do aparelhopara agilizarmos o atendimento?"
+        },
+        {
+            "mensagens": [
+                "bom dia",
+                "oi bom dia",
+                "bom dia tudo bem? ",
+                "bom dia tudo bom"
+            ],
+            "resposta": "Bom dia sou o robô assistente do técnico de refrigeração Brendon, poderia me informar a marca do aparelho que deseja assistência? Poderia me informar a marca, o tipo e o modelo do aparelhopara agilizarmos o atendimento?"
+        },
+        {
+            "mensagens": [
+                "olá boa tarde",
+                "oi boa tarde",
+                "boa tarde tudo bem? ",
+                "boa tarde tudo bom"
+            ],
+            "resposta": "Boa tarde sou o robô assistente do técnico de refrigeração Brendon, poderia me informar a marca do aparelho que deseja assistência? Poderia me informar a marca, o tipo e o modelo do aparelhopara agilizarmos o atendimento?"
+        },
+        {
+            "mensagens": [
+                
+                "oi boa noite",
+                "boa noite tudo bem? ",
+                "boa noite tudo bom",
+                "boa noite"
+            ],
+            "resposta": "Boa noite sou o robô assistente do técnico de refrigeração Brendon, poderia me informar a marca do aparelho que deseja assistência? Poderia me informar a marca, o tipo e o modelo do aparelhopara agilizarmos o atendimento?"
+        }
+    ]
+}

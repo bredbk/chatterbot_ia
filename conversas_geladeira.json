@@ -1,0 +1,60 @@
+{
+    "conversas": [
+        {
+            "mensagens": [
+                "minha geladeira parou de funcionar",
+                "minha geladeira não funciona",
+                "minha geladeira deu defeito",
+                "minha geladeira não está funcionando"
+            ],
+            "resposta": "Qual a marca e modelo da geladeira que está com problema?"
+        },
+        {
+            "mensagens": [
+                "parou de gelar embaixo",
+                "só gela embaixo",
+                "não gela embaixo",
+                "não está gelando as coisas",
+                "não está refrigerando a parte de baixo",
+                "está quente a parte de baixo",
+                "a parte da geladeira está quente"
+                
+            ],
+            "resposta": "O congelador está funcionando?"
+        },
+        {
+            "mensagens": [
+                "parou de gelar as duas partes",
+                "parou de gelar tudo",
+                "acende a luz mas não gela",
+                "só acende a luz",
+                "está parada mas a luz acende",
+                "está quente a parte de baixo",
+                "a parte da geladeira está quente"
+            ],
+            "resposta": "O problema pode ser o gás mas tem que testar para ter certeza poderia me informar o endereço?"
+        },
+        {
+            "mensagens": [
+                "o congelador funciona",
+                "o congelador gela mas embaixo não",
+                "o congelador gela muito",
+                "o congelador está gelando um pouco",
+                "está criando muito gelo no congelador",
+                "não está saindo o ar no congelador"
+            ],
+            "resposta": "O defeito pode ser no sensor ou resistência ou capa traseira mas tem que testar para ter certeza poderia me informar o endereço?"
+        },
+        {
+            "mensagens": [
+                "está perdendo tudo na geladeira",
+                "o congelador gela mas embaixo não",
+                "o congelador gela muito",
+                "o congelador está gelando um pouco",
+                "está criando muito gelo no congelador",
+                "não está saindo o ar no congelador"
+            ],
+            "resposta": "Paciencia, vamos resolver, poderia informar a marca e o modelo da geladeira que está com problema?"
+        }
+    ]
+}
