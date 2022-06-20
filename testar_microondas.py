@@ -23,6 +23,11 @@ class TesteSaudacoes(unittest.TestCase):
 
         self.assertIn("Quase certeza que pode ser defeito na membrana", resposta.text)
 
+    def testar_placa(self):
+        resposta = self.robo.get_response("o visor não acende")
+
+        self.assertIn("Quase certeza que pode ser defeito na placa", resposta.text)
+
     
 
 if __name__ == "__main__":

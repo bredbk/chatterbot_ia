@@ -21,14 +21,29 @@ class TesteSaudacoes(unittest.TestCase):
         self.assertIn("Boa noite sou o robô assistente", resposta.text)
 
     def testar_horario(self):
-        resposta = self.robo.get_response("atende em qual horario? é da autorizada?")
+        resposta = self.robo.get_response("em que horário você atende?")
 
         self.assertIn("Atendo das 10h da manhã ás 18h da tarde", resposta.text)
     
-    def testar_horario(self):
-        resposta = self.robo.get_response("é da autorizada?")
+    def testar_autorizada(self):
+        resposta = self.robo.get_response("você é da autorizada?")
 
         self.assertIn("Não somos autorizada", resposta.text)
+
+    def testar_garantia(self):
+        resposta = self.robo.get_response("quanto tempo tem a garantia?")
+
+        self.assertIn("A garantia do serviço realizado é de 90 dias", resposta.text)
+
+    def testar_marca(self):
+        resposta = self.robo.get_response("electrolux")
+
+        self.assertIn("Descreva em poucas palavras", resposta.text)
+
+    def testar_atendimento(self):
+        resposta = self.robo.get_response("você atende a domicilio?")
+
+        self.assertIn("Atendemos a domicilio", resposta.text)
 
     
 

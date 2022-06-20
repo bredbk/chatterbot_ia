@@ -13,6 +13,8 @@
                 "parou de centrifugar",
                 "só bate e não centrifuga",
                 "não está centrifugando",
+                "só gira o meio",
+                "ela só está girando o meio",
                 "gira só o meio mas não gira o cesto"
             ],
             "resposta": "Quase certeza que pode ser defeito no atuador mas tem que testar para ter certeza poderia me informar o endereço?"

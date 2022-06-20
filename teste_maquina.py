@@ -13,12 +13,12 @@ class TesteSaudacoes(unittest.TestCase):
 
         self.assertIn("Qual a marca e modelo da máquina de lavar", resposta.text)
     
-    def testar_so_gira(self):
+    def testar_maquina_so_gira(self):
         resposta = self.robo.get_response("não gira o cesto")
 
         self.assertIn("pode ser defeito no atuador", resposta.text)
 
-    def testar_nao_joga_agua(self):
+    def testar_maquina_nao_joga_agua(self):
         resposta = self.robo.get_response("não joga água fora")
 
         self.assertIn("pode ser defeito na bomba de drenagem", resposta.text)
