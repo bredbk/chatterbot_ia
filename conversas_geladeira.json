@@ -11,24 +11,21 @@
         },
         {
             "mensagens": [
-                "parou de gelar embaixo",
-                "só gela embaixo",
-                "não gela embaixo",
-                "não está gelando as coisas",
-                "não está refrigerando a parte de baixo",
-                "está quente a parte de baixo",
-                "a parte da geladeira está quente"
-                
-            ],
-            "resposta": "O congelador está funcionando?"
-        },
-        {
-            "mensagens": [
                 "parou de gelar as duas partes",
                 "parou de gelar tudo",
                 "acende a luz mas não gela",
                 "só acende a luz",
                 "está parada mas a luz acende",
+                "está quente a parte de baixo",
+                "o congelador parou também",
+                "a parte da geladeira está quente",
+                "parou de gelar embaixo",
+                "só gela embaixo",
+                "não gela embaixo",
+                "ela não gela",
+                "ela não gela embaixo",
+                "não está gelando as coisas",
+                "não está refrigerando a parte de baixo",
                 "está quente a parte de baixo",
                 "a parte da geladeira está quente"
             ],
@@ -48,11 +45,8 @@
         {
             "mensagens": [
                 "está perdendo tudo na geladeira",
-                "o congelador gela mas embaixo não",
-                "o congelador gela muito",
-                "o congelador está gelando um pouco",
-                "está criando muito gelo no congelador",
-                "não está saindo o ar no congelador"
+                "ela não está funcionando e não sei o que fazer",
+                "moço não sei o que fazer, poderia me ajudar?"                
             ],
             "resposta": "Paciencia, vamos resolver, poderia informar a marca e o modelo da geladeira que está com problema?"
         }

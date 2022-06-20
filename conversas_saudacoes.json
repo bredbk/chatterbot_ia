@@ -7,7 +7,7 @@
                 "tudo bem?",
                 "tudo bom"
             ],
-            "resposta": "Saudações, sou o robô assistente do técnico de refrigeração Brendon, poderia me informar a marca do aparelho que deseja assistência? Poderia me informar a marca, o tipo e o modelo do aparelhopara agilizarmos o atendimento?"
+            "resposta": "Saudações, sou o robô assistente do técnico de refrigeração Brendon, poderia me informar a marca do aparelho que deseja assistência?"
         },
         {
             "mensagens": [
@@ -16,7 +16,7 @@
                 "bom dia tudo bem? ",
                 "bom dia tudo bom"
             ],
-            "resposta": "Bom dia sou o robô assistente do técnico de refrigeração Brendon, poderia me informar a marca do aparelho que deseja assistência? Poderia me informar a marca, o tipo e o modelo do aparelhopara agilizarmos o atendimento?"
+            "resposta": "Bom dia sou o robô assistente do técnico de refrigeração Brendon, poderia me informar a marca do aparelho que deseja assistência?"
         },
         {
             "mensagens": [
@@ -25,7 +25,7 @@
                 "boa tarde tudo bem? ",
                 "boa tarde tudo bom"
             ],
-            "resposta": "Boa tarde sou o robô assistente do técnico de refrigeração Brendon, poderia me informar a marca do aparelho que deseja assistência? Poderia me informar a marca, o tipo e o modelo do aparelhopara agilizarmos o atendimento?"
+            "resposta": "Boa tarde sou o robô assistente do técnico de refrigeração Brendon, poderia me informar a marca do aparelho que deseja assistência?"
         },
         {
             "mensagens": [
