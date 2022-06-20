@@ -3,7 +3,7 @@
         {
             "mensagens": [
                 "meu microondas parou de esquntar",
-                "meu microondas parou funcionar",
+                "meu microondas parou de funcionar",
                 "meu microondas não funciona",
                 "meu microondas deu defeito"
             ],
@@ -16,6 +16,7 @@
                 "não esquenta o alimento",
                 "não esquenta a comida",
                 "gira só o meio mas não esquenta",
+                "gira só o prato",
                 "gira só o prato mas não esquenta",
                 "a comida sai fria",
                 "o alimento sai frio"
@@ -27,6 +28,8 @@
                 "painel não responde o comando",
                 "não está funcionando o painel",
                 "não aperta o painel",
+                "o painel não responde os comandos",
+                "painel do microondas não responde",
                 "o digital não funciona"
             ],
             "resposta": "Quase certeza que pode ser defeito na membrana mas tem que testar para ter certeza poderia me informar o endereço?"

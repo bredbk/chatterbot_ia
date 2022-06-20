@@ -3,12 +3,10 @@
         {
             "mensagens": [
                 "minha maquina parou de funcionar",
-                "minha máquina de lavar não funciona",
-                "minha máquina de lavar deu defeito",
-                "minha maquina de lavar não está funcionando",
-                "minha maquina parou"
+                "minha máquina de lavar não está funcionando",
+                "minha máquina parou"
             ],
-            "resposta": "Qual a marca e modelo da mãquina de lavar que está com problema?"
+            "resposta": "Qual a marca e modelo da máquina de lavar que está com problema?"
         },
         {
             "mensagens": [

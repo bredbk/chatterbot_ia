@@ -5,9 +5,11 @@
                 "minha geladeira parou de funcionar",
                 "minha geladeira não funciona",
                 "minha geladeira deu defeito",
+                "geladeira deu defeito",
+                "geladeira não gela",
                 "minha geladeira não está funcionando"
             ],
-            "resposta": "Qual a marca e modelo da geladeira que está com problema?"
+            "resposta": "Qual a marca da geladeira que está com problema?"
         },
         {
             "mensagens": [
@@ -24,7 +26,6 @@
                 "não gela embaixo",
                 "ela não gela",
                 "ela não gela embaixo",
-                "não está gelando as coisas",
                 "não está refrigerando a parte de baixo",
                 "está quente a parte de baixo",
                 "a parte da geladeira está quente"
