@@ -1,7 +1,7 @@
 import unittest
 from robo import *
 
-class TesteSaudacoes(unittest.TestCase):
+class TesteGeladeira(unittest.TestCase):
 
     def setUp(self):
         self.robo = ChatBot('Robô atendente de refrigeração')
@@ -24,14 +24,14 @@ class TesteSaudacoes(unittest.TestCase):
         self.assertIn("sensor ou resistência ou capa traseira", resposta.text)
     
     def testar_parou_de_gelar(self):
-        resposta = self.robo.get_response("parou de gelar as duas partes")
+        resposta = self.robo.get_response("ela não gela embaixo")
 
         self.assertIn("O problema pode ser o gás mas tem que testar", resposta.text)
 
-    def testar_parou_de_gelar(self):
-        resposta = self.robo.get_response("está perdendo tudo na geladeira")
+    def testar_perdendo_as_coisas(self):
+        resposta = self.robo.get_response("moço não sei o que fazer, poderia me ajudar?")
 
-        self.assertIn("Paciencia, vamos resolver, poderia informar a marca e o modelo", resposta.text)
+        self.assertIn("Paciencia, vamos resolver, poderia informar a marca", resposta.text)
 
     
 
@@ -39,7 +39,7 @@ if __name__ == "__main__":
     carregador = unittest.TestLoader()
     testes = unittest.TestSuite()
 
-    testes.addTest(carregador.loadTestsFromTestCase(TesteSaudacoes))
+    testes.addTest(carregador.loadTestsFromTestCase(TesteGeladeira))
 
     executor = unittest.TextTestRunner()
     executor.run(testes)

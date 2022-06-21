@@ -13,12 +13,12 @@ class TesteSaudacoes(unittest.TestCase):
     def testar_bom_dia(self):
         resposta = self.robo.get_response("bom dia")
 
-        self.assertIn("Bom dia sou o robô assistente", resposta.text)
+        self.assertIn("Saudações, sou o robô assistente do técnico", resposta.text)
     
     def testar_boa_noite(self):
         resposta = self.robo.get_response("boa noite tudo bem?")
 
-        self.assertIn("Boa noite sou o robô assistente", resposta.text)
+        self.assertIn("Saudações, sou o robô assistente do técnico", resposta.text)
 
     def testar_horario(self):
         resposta = self.robo.get_response("em que horário você atende?")

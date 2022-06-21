@@ -1,7 +1,7 @@
 import unittest
 from robo import *
 
-class TesteSaudacoes(unittest.TestCase):
+class TesteMicroondas(unittest.TestCase):
 
     def setUp(self):
         self.robo = ChatBot('Robô atendente de refrigeração')
@@ -34,7 +34,7 @@ if __name__ == "__main__":
     carregador = unittest.TestLoader()
     testes = unittest.TestSuite()
 
-    testes.addTest(carregador.loadTestsFromTestCase(TesteSaudacoes))
+    testes.addTest(carregador.loadTestsFromTestCase(TesteMicroondas))
 
     executor = unittest.TextTestRunner()
     executor.run(testes)
